@@ -1,11 +1,12 @@
-step 1: Figure out how to get PyQt to work
-2: Figure out how to get PyQt Designer to work
+step 1: Figure out how to get PyQt to work in Pycharm
+2: Figure out how to get PyQt Designer to work in Pycharm
 3: make a basic-ass GUI
     - have a window that pops up and says something
     - create this using PyQt Designer
 4: make a GUI that is less basic (add buttons and things)
     - A simple Calculator
         - display
+        - buttons that work
 5: make the framework for the GUI that will actually be used
     - a console window (not necissarily with the console in it yet)
     - a window for Graphviz (again, not with graphviz actually in it yet)
