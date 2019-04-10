@@ -8,7 +8,7 @@ step 1: Figure out how to get PyQt to work in Pycharm
         - display
         - buttons that work
 5: make the framework for the GUI that will actually be used
-    - a console window (not necissarily with the console in it yet)
+    - a console window (not necessarily with the console in it yet)
     - a window for Graphviz (again, not with graphviz actually in it yet)
     - a button panel to the side
     - menu buttons along the top
@@ -25,3 +25,8 @@ step 1: Figure out how to get PyQt to work in Pycharm
 STRETCH
 Will add later when/if relevant. The above represents basic functionality, and anything that could be considered
 "stretch" should be ignored for now.
+
+Visual Representation of algorithms being enacted
+more visual customization
+Custom algorithms
+
