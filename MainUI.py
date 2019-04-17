@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-# @author: Daniel Dempsey
+# Form implementation generated from reading ui file 'EdgeucationMainWindow.ui'
 #
-# Created with assistance from PyQT Designer
+# Created by: PyQt5 UI code generator 5.11.3
 #
-# @version 4/17/19
+# WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtWidgets
 
@@ -34,12 +34,12 @@ class Ui_MainWindow(object):
         self.gridLayout.addItem(spacerItem, 2, 1, 1, 1)
         spacerItem1 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.gridLayout.addItem(spacerItem1, 3, 0, 1, 1)
-        self.pushButton = QtWidgets.QPushButton(self.gridLayoutWidget)
-        self.pushButton.setObjectName("pushButton")
-        self.gridLayout.addWidget(self.pushButton, 1, 0, 1, 1, QtCore.Qt.AlignTop)
-        self.pushButton_2 = QtWidgets.QPushButton(self.gridLayoutWidget)
-        self.pushButton_2.setObjectName("pushButton_2")
-        self.gridLayout.addWidget(self.pushButton_2, 2, 0, 1, 1, QtCore.Qt.AlignTop)
+        self.pushButton_addNode = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pushButton_addNode.setObjectName("pushButton_addNode")
+        self.gridLayout.addWidget(self.pushButton_addNode, 1, 0, 1, 1, QtCore.Qt.AlignTop)
+        self.pushButton_addEdge = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pushButton_addEdge.setObjectName("pushButton_addEdge")
+        self.gridLayout.addWidget(self.pushButton_addEdge, 2, 0, 1, 1, QtCore.Qt.AlignTop)
         spacerItem2 = QtWidgets.QSpacerItem(20, 10, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Minimum)
         self.gridLayout.addItem(spacerItem2, 0, 0, 1, 1)
         self.tabWidget.addTab(self.tab, "")
@@ -130,8 +130,8 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Edgeucation"))
-        self.pushButton.setText(_translate("MainWindow", "Add Node"))
-        self.pushButton_2.setText(_translate("MainWindow", "Add Edge"))
+        self.pushButton_addNode.setText(_translate("MainWindow", "Add Node"))
+        self.pushButton_addEdge.setText(_translate("MainWindow", "Add Edge"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "Tab 1"))
         self.pushButton_4.setText(_translate("MainWindow", "Color Edge"))
         self.pushButton_5.setText(_translate("MainWindow", "Number Node"))
