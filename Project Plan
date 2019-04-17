@@ -3,19 +3,21 @@ step 1: Figure out how to get PyQt to work in Pycharm
 3: make a basic-ass GUI
     - have a window that pops up and says something
     - create this using PyQt Designer
-4: make a GUI that is less basic (add buttons and things)
+4: make a GUI that is less basic (add buttons and things) - SKIPPED
     - A simple Calculator
         - display
         - buttons that work
-5: make the framework for the GUI that will actually be used
-    - a console window (not necessarily with the console in it yet)
-    - a window for Graphviz (again, not with graphviz actually in it yet)
-    - a button panel to the side
-    - menu buttons along the top
-6: add console functionality to console window
-7: make NetworkX work with said console in a way that you can use it just by opening the app
-8: do step 6-7 for Graphviz
+5: make the framework for the GUI that will actually be used DONE
+    - a console window (not necessarily with the console in it yet) DONE
+    - a window for Graphviz (again, not with graphviz actually in it yet) DONE
+    - a button panel to the side DONE
+    - menu buttons along the top DONE
+6: add console functionality to console window TODO
+7: make NetworkX work with said console in a way that you can use it just by opening the app TODO
+8: do step 6-7 for Graphviz TODO
 9: make graphviz and networkX work together somehow
+9.*: Alternative - pick either graphviz or networkX and work on original implementation of the other's purpose
+    (obviously more basic than the actual too would have been)
 10: start adding basic custom functionality
     - add node button that interacts with graphviz window somehow
     - add edge button
