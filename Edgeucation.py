@@ -234,11 +234,12 @@ class UI_MainWindow(QWidget):
                 if okPressed3:
                     nodesToPath.append(q)
 
+            self.figure.clf()
             for n in range (1, len(nodesToPath)):
-                self.figure.clf()
-                self.the_graph.add_edge(n, n-1)
-                nx.draw(self.the_graph, with_labels=True)
-                self.canvas.draw_idle()
+                self.the_graph.add_edge(nodesToPath[n], nodesToPath[n - 1])
+
+            nx.draw(self.the_graph, with_labels=True)
+            self.canvas.draw_idle()
 
     def trivialGraphButton(self, layout):
         button = QPushButton('Trivial Graph')
