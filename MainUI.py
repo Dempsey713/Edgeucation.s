@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-
-# Form implementation generated from reading ui file 'EdgeucationMainWindow.ui'
-#
-# Created by: PyQt5 UI code generator 5.11.3
-#
-# WARNING! All changes made in this file will be lost!
-
 from PyQt5 import QtCore, QtWidgets
 
 class Ui_MainWindow(object):
@@ -14,34 +6,43 @@ class Ui_MainWindow(object):
         MainWindow.resize(1086, 681)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
+
         self.frame = QtWidgets.QFrame(self.centralwidget)
         self.frame.setGeometry(QtCore.QRect(-1, -1, 1081, 621))
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
+
         self.tabWidget = QtWidgets.QTabWidget(self.frame)
         self.tabWidget.setGeometry(QtCore.QRect(5, 10, 161, 611))
         self.tabWidget.setObjectName("tabWidget")
+
         self.tab = QtWidgets.QWidget()
         self.tab.setObjectName("tab")
+
         self.gridLayoutWidget = QtWidgets.QWidget(self.tab)
         self.gridLayoutWidget.setGeometry(QtCore.QRect(0, 0, 151, 581))
         self.gridLayoutWidget.setObjectName("gridLayoutWidget")
+
         self.gridLayout = QtWidgets.QGridLayout(self.gridLayoutWidget)
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
         self.gridLayout.setObjectName("gridLayout")
+
         spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
         self.gridLayout.addItem(spacerItem, 2, 1, 1, 1)
         spacerItem1 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.gridLayout.addItem(spacerItem1, 3, 0, 1, 1)
+
         self.pushButton_addNode = QtWidgets.QPushButton(self.gridLayoutWidget)
         self.pushButton_addNode.setObjectName("pushButton_addNode")
         self.gridLayout.addWidget(self.pushButton_addNode, 1, 0, 1, 1, QtCore.Qt.AlignTop)
         self.pushButton_addEdge = QtWidgets.QPushButton(self.gridLayoutWidget)
         self.pushButton_addEdge.setObjectName("pushButton_addEdge")
         self.gridLayout.addWidget(self.pushButton_addEdge, 2, 0, 1, 1, QtCore.Qt.AlignTop)
+
         spacerItem2 = QtWidgets.QSpacerItem(20, 10, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Minimum)
         self.gridLayout.addItem(spacerItem2, 0, 0, 1, 1)
+
         self.tabWidget.addTab(self.tab, "")
         self.tab_2 = QtWidgets.QWidget()
         self.tab_2.setObjectName("tab_2")
@@ -51,8 +52,10 @@ class Ui_MainWindow(object):
         self.gridLayout_2 = QtWidgets.QGridLayout(self.gridLayoutWidget_2)
         self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
         self.gridLayout_2.setObjectName("gridLayout_2")
+
         spacerItem3 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
         self.gridLayout_2.addItem(spacerItem3, 3, 1, 1, 1)
+
         self.pushButton_4 = QtWidgets.QPushButton(self.gridLayoutWidget_2)
         self.pushButton_4.setObjectName("pushButton_4")
         self.gridLayout_2.addWidget(self.pushButton_4, 2, 0, 1, 1)
@@ -65,10 +68,12 @@ class Ui_MainWindow(object):
         self.pushButton_3 = QtWidgets.QPushButton(self.gridLayoutWidget_2)
         self.pushButton_3.setObjectName("pushButton_3")
         self.gridLayout_2.addWidget(self.pushButton_3, 1, 0, 1, 1)
+
         spacerItem4 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.gridLayout_2.addItem(spacerItem4, 5, 0, 1, 1)
         spacerItem5 = QtWidgets.QSpacerItem(20, 10, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Minimum)
         self.gridLayout_2.addItem(spacerItem5, 0, 0, 1, 1)
+
         self.tabWidget.addTab(self.tab_2, "")
         self.verticalLayoutWidget = QtWidgets.QWidget(self.frame)
         self.verticalLayoutWidget.setGeometry(QtCore.QRect(190, 10, 891, 611))
@@ -76,16 +81,20 @@ class Ui_MainWindow(object):
         self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout.setObjectName("verticalLayout")
+
         self.graphicsView = QtWidgets.QGraphicsView(self.verticalLayoutWidget)
         self.graphicsView.setMouseTracking(True)
         self.graphicsView.setTabletTracking(True)
         self.graphicsView.setObjectName("graphicsView")
+
         self.verticalLayout.addWidget(self.graphicsView)
         self.textBrowser = QtWidgets.QTextBrowser(self.verticalLayoutWidget)
         self.textBrowser.setObjectName("textBrowser")
         self.verticalLayout.addWidget(self.textBrowser)
+
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
+
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1086, 26))
         self.menubar.setObjectName("menubar")
         self.menuFile = QtWidgets.QMenu(self.menubar)
@@ -95,9 +104,11 @@ class Ui_MainWindow(object):
         self.menuView = QtWidgets.QMenu(self.menubar)
         self.menuView.setObjectName("menuView")
         MainWindow.setMenuBar(self.menubar)
+
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
+
         self.actionNew = QtWidgets.QAction(MainWindow)
         self.actionNew.setObjectName("actionNew")
         self.actionOpen = QtWidgets.QAction(MainWindow)
@@ -110,6 +121,7 @@ class Ui_MainWindow(object):
         self.actionPrint.setObjectName("actionPrint")
         self.actionQuit = QtWidgets.QAction(MainWindow)
         self.actionQuit.setObjectName("actionQuit")
+
         self.menuFile.addAction(self.actionNew)
         self.menuFile.addAction(self.actionOpen)
         self.menuFile.addSeparator()
